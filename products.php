@@ -14,12 +14,14 @@ $categories = $categoryModel->all();
 $pageTitle = "Shop | Classy";
 require "partials/header.php";
 ?>
-<section class="page-banner">
-    <span class="eyebrow">THE COLLECTION</span>
-    <h1>Shop accessories</h1>
-    <p>Find the piece that completes your look.</p>
-</section>
 
+<section class="pagee-banner">
+    <img 
+        src="/accessories-shop/public/images/banner.png" 
+        alt="Collection Banner"
+        style="width: 100%; height: 510px; object-fit: cover; object-position: center; display: block;"
+    >
+</section>
 <section class="section">
     <div class="shop-toolbar">
         <div class="filters">
